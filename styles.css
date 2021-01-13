@@ -1,0 +1,139 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+h1{
+    color: #27272A;
+    text-align: center;
+    margin: 1rem auto 0.25rem auto;
+    font-size: 2.25rem;
+}
+
+.coming-soon-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0rem 1.5rem;
+    align-items: center;
+}
+
+.section-data{
+    padding: 1rem;
+    max-width: 600px;
+}
+
+.section-data  h2{
+    font-weight: 800;
+    font-size: 2rem;
+    color: #1D4ED8;
+    text-align: left;
+}
+
+.section-data p{
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: #3F3F46;
+    text-align: left;
+}
+
+.section-img{
+    padding: 1rem;
+}
+
+.section-img img{
+    max-width: 450px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .coming-soon-section{
+        flex-direction: column;
+        padding: 0rem 0.5rem ;
+        max-width: 640px;
+    }
+    .section-data h2,p{
+        text-align: center;
+    }
+    .section-data p{
+        font-size: 1.25rem;
+    }
+
+    .section-img img{
+        width: 290px;
+    }
+    
+    
+    
+}    
+
+.form{
+  text-align: center;
+  margin-top: 1rem;
+    
+}
+
+.form p{
+    font-weight: 500;
+
+}
+
+input[type=text]{
+    
+    padding: 10px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #D4D4D8;
+    border-radius: 8px;
+    box-sizing: border-box;
+    outline-width: 0px;
+}
+
+input[type=submit] {
+    
+    background-color: #1D4ED8;
+    color: white;
+    padding: 10px 20px;
+    margin: 8px 8px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover{
+    background-color: #1E40AF;
+}
+
+.footer{
+    text-align: center;
+    margin-top: 1.25rem;
+}
+
+.footer a{
+    text-decoration: none;
+    margin: 0.75rem;
+    color: #27272A;
+}
+
+.footer a:hover{
+    color: #1E40AF;
+}
+
+.credit{
+    
+    text-align: center;
+    background-color: #F5F5F5;
+    padding: 1rem 1.5rem;
+    margin: 2rem auto 0rem auto;
+    max-width: 500px;
+}
+
+.credit a{
+    color: #18181B;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+}
