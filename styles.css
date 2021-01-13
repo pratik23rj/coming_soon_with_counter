@@ -121,3 +121,19 @@ input[type=submit]:hover{
 .footer a:hover{
     color: #1E40AF;
 }
+
+.credit{
+    
+    text-align: center;
+    background-color: #F5F5F5;
+    padding: 1rem 1.5rem;
+    margin: 2rem auto 0rem auto;
+    max-width: 500px;
+}
+
+.credit a{
+    color: #18181B;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+}
